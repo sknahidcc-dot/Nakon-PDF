@@ -23,15 +23,26 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      - name: Setup local .env
+      - name: Setup Gradle and Keystore
         run: |
+          # 1. Restore or generate debug.keystore
+          if [ -f "debug.keystore.base64" ]; then
+            base64 -d debug.keystore.base64 > debug.keystore
+          elif [ ! -f "debug.keystore" ]; then
+            keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          fi
+
+          # 2. Ensure gradlew exists and has execute permission
+          if [ ! -f "gradlew" ]; then
+            gradle wrapper
+          fi
+          chmod +x gradlew
+
+          # 3. Create .env file for build
           touch .env
           echo "APP_NAME=Nakon-PDF" >> .env
 
-      - name: Build APK with Gradle
+      - name: Build Debug APK with Gradle
         run: ./gradlew assembleDebug --stacktrace
 
       - name: Upload Nakon-PDF APK Artifact
