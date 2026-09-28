@@ -1,0 +1,6 @@
+{
+  "name": "Nakon-PDF",
+  "description": "Smart Fast Image to PDF Maker & Document Scanner with multi-capture, A4 white-background black-text scanner filters, PDF lock/unlock, and reader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

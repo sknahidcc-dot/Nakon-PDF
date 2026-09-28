@@ -1,11 +1,37 @@
-<div align="center">
+# Nakon-PDF (নাকন-পিডিএফ)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+স্মার্ট ও দ্রুত ইমেজ-টু-পিডিএফ মেকার এবং ডকুমেন্ট স্ক্যানার অ্যান্ড্রয়েড অ্যাপ।
 
-  <h1>Built with AI Studio</h2>
+## ডেভেলপার ও প্রজেক্ট তথ্য:
+- **App Name:** Nakon-PDF
+- **Developer Name:** Nahid Hasan
+- **Institute Name:** University of Barishal
+- **Email:** sknahid.study@gmail.com
+- **Address:** Harinakundu, Jhenaidah
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## প্রধান সুবিধাসমূহ (Key Features):
+1. **দ্রুত ও সহজ পিকচার টু PDF:** গ্যালারি বা ক্যামেরা থেকে সরাসরি সিঙ্গেল বা ব্যাচ ফটো কনভার্ট।
+2. **লাইভ একের পর এক ছবি তোলা (Continuous Multi-Capture):** ক্যামেরা স্ক্রিন থেকে বের না হয়ে একটানা পেজ ১, পেজ ২, পেজ ৩ ছবি তুলতেই থাকুন।
+3. **ক্লিয়ার ও অ্যান্টি-শেক স্ক্যানার (Document Scanner Filters):**
+   - **B&W Document Scan (সাদা ব্যাকগ্রাউন্ড ও কালো লেখা):** ছায়া এবং হলুদ ভাব দূর করে একদম পরিষ্কার সাদা পেপার ও কালির লেখা।
+   - **Magic Color:** রঙিন ডকুমেন্ট, আইডি কার্ড বা সার্টিফিকেটের জন্য উজ্জ্বল রঙের স্ক্যান।
+   - **Grayscale:** ধূসর মোড।
+   - **Original:** মূল ছবি অপরিবর্তিত রেখে।
+   - **A4 সাইজ ফর্ম্যাটিং:** নিখুঁত A4 পেজ রেশিওতে স্বয়ংক্রিয় ফিট।
+4. **পিডিএফ নিরাপত্তা (Lock & Unlock):**
+   - যেকোনো পিডিএফ পাসওয়ার্ড দিয়ে লক (Encrypt) করা যায়।
+   - লক করা পিডিএফ পাসওয়ার্ড দিয়ে খোলা এবং স্থায়ীভাবে পাসওয়ার্ড মুক্ত (Unlock/Decrypt) করা যায়।
+5. **বিল্ট-ইন পিডিএফ রিডার:**
+   - অ্যাপের ভেতরেই নিখুঁত স্ক্রোলিং ও জুম ভিউয়ার।
+   - সরাসরি হোয়াটসঅ্যাপ, ইমেইল বা ড্রাইভে শেয়ার ও প্রিন্ট।
 
-</div>
+---
+
+## কম্পিউটার ছাড়া গিটহাব থেকে সরাসরি APK ডাউনলোড করার নিয়ম:
+1. আপনার কোড গিটহাবে পুশ করুন (GitHub Export বা Push)।
+2. আপনার GitHub রিপোজিটরির **Actions** ট্যাবে যান।
+3. **"Build Nakon-PDF APK"** ওয়ার্কফ্লো দেখতে পাবেন। (অথবা "Run workflow" বাটনে ক্লিক করুন)।
+4. ৩-৪ মিনিটের মধ্যে বিল্ড সফল হবে।
+5. বিল্ডের নিচে **"Artifacts"** সেকশন থেকে **nakon-pdf-debug-apk** জিপ ফাইলটি ডাউনলোড করে আপনার মোবাইলে ইন্সটল করুন!
